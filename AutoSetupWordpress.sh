@@ -109,10 +109,6 @@ yum install httpd php php-common php-mysqlnd php-mbstring php-gd mariadb-server 
 sed -i ‘s/AllowOverride non/AllowOverride all/g’ /etc/httpd/conf/httpd.conf
 
 chown -R apache:apache /var/www
-#chmod 2775 /var/www
-
-#find /var/www -type d -exec sudo chmod 2775 {} \;
-#find /var/www -type f -exec sudo chmod 0664 {} \;
 
 systemctl start httpd
 systemctl enable httpd
