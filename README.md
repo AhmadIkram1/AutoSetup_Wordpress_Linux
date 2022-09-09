@@ -5,7 +5,7 @@ For running it give this file executable permission using this command
 ```
 chmod a+x AutoSetupWordpress.sh
 ```
-This can only be executed if your are root user. You can be root by using this command
+This can only be executed if you are root user. You can be root by using this command
 ```
 sudo su
 ```
